@@ -6,7 +6,7 @@
 - [MySQL Server 8.0.39](https://dev.mysql.com/downloads/mysql/8.0.html)
 - [Apache Airflow]()
 
-**Pre-requisites**
+**Pre-requisites**<br>
 Make sure you have Python, Airflow and MySQL installed in your machine.
 
 #### Steps to setup the project
