@@ -20,7 +20,7 @@ class Randomdatagenerator:
     def __init__(self):
         self.users_list = [random_utils.get_unique_random_string(10) for i in range(25)] # Creating a pool of 25 users, length of each user_id=10
         self.products_list = [random_utils.get_unique_random_string(10) for i in range(25)] # Creating a pool of 25 products, length of each product_id=10
-        self.action_list = [each for each in range(1, 6)]
+        self.action_list = [each for each in range(1, 6)] # Assuming there are 5 actions, 1 to 5
         folder_utils.create_folder(constants.data_folder, overwrite=True)
 
     def create_data(self):
