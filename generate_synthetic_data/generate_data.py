@@ -41,7 +41,7 @@ class Randomdatagenerator:
 
     def main(self):
         data_list = self.create_data()
-        data_df = excel_utils.convert_list_into_dataframe(data_list)
+        data_df = excel_utils.reorder_columns_in_df(excel_utils.convert_list_into_dataframe(data_list), ["interaction_id", "user_id", "product_id", "action", "timestamp"])
         write_status = excel_utils.dump_csv_file(data_df, constants.synthetic_data_file)
         print("File dump status - {0} at {1}".format(write_status, constants.synthetic_data_file))
 
