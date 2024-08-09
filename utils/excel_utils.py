@@ -1,5 +1,4 @@
 import traceback
-
 import pandas as pd
 
 from utils import file_utils
@@ -24,3 +23,6 @@ def dump_csv_file(data, file_path, need_header=True, need_index=False):
 
 def convert_list_into_dataframe(data_list):
     return pd.DataFrame(data_list)
+
+def reorder_columns_in_df(df, column_list):
+    return df[column_list]
