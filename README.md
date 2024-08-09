@@ -6,7 +6,7 @@
 - [MySQL Server 8.0.39](https://dev.mysql.com/downloads/mysql/8.0.html)
 - [Apache Airflow]()
 
-**Pre-requisites**
+#### Pre-requisites
 Make sure you have Python, Airflow and MySQL installed in your machine.
 
 #### Steps to setup the project
@@ -17,3 +17,7 @@ This will create a virtual environment named as venv. You can choose to name it 
 4. Now, activate the virtual environment: `source ./setup/venv/bin/activate`
 5. Install the dependencies by referring to the file attached: `pip install -r ./setup/requirements.txt`
 Please note that, this step would be required only once in the beginning while setting up the project.
+
+#### How to generate synthetic data for the assignment
+- Synthetic data is nothing but generated in the format to showcase the working of the questions
+- More details can be found [here](https://github.com/Chanpreet-Singh/icustomer.ai-de-assignment/blob/main/generate_synthetic_data/synthetic%20data%20README.md)
