@@ -12,3 +12,7 @@
 - In the beginning, it is create a new folder <b>data</b>, if already present then it deletes the old one and creates a new one.
 - The final csv file is named as <b>synthetic_data.csv</b> and the file path would be <b>data/synthetic_data.csv</b>
 - Each execution will override the file with new data, if a file is already present.
+
+##### Command to execute the script
+- Go into the root folder
+- Type in `source setup/venv/bin/activate; python -m generate_synthetic_data.generate_data` 
